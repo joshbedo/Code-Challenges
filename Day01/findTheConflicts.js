@@ -45,3 +45,5 @@ const findConflicts = cal => {
 
   return conflicts;
 }
+
+console.log(findConflicts(calendar));
