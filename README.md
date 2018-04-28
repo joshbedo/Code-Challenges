@@ -7,7 +7,7 @@ Using the following input N=5 code a function that builds a staircase N rows and
 # Finding The Calendar Event Conflicts Challenge
 Using the following dataset check to see if any events have conflicting times and return them.
 
-`
+```
 // input
 // ex: [start, end, id]
 const calendar = [
@@ -20,4 +20,4 @@ const calendar = [
   [13, 14, 'g'],
   [13, 14, 'h']
 ];
-`
+```
