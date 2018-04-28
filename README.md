@@ -36,3 +36,19 @@ const calendar = [
 // output:
 [ [ 'b', 'c' ], [ 'd', 'e', 'f' ], [ 'g', 'h' ] ]
 ```
+
+# Check if string is Palindrome
+Create a function to check if the input is a Palindrome and return true or false.
+
+```
+// Create a function to check if `str` is a Palindrome
+// https://en.wikipedia.org/wiki/Palindrome
+//
+// ex: Amy, must I juijitsu my ma?
+// Anna
+// Anne, I vote more cars race Rome to Vienna
+
+const checkPalindrome = str => {
+  return str === str.split('').reverse().join('');
+}
+```

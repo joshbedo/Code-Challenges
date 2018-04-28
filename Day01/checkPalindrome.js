@@ -5,6 +5,6 @@
 // Anna
 // Anne, I vote more cars race Rome to Vienna
 
-const checkPalindrom = str => {
+const checkPalindrome = str => {
   return str === str.split('').reverse().join('');
 }
