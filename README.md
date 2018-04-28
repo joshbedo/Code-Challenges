@@ -5,7 +5,7 @@ A bunch of different code challenges for fun
 Using the following input N=5 code a function that builds a staircase N rows and N columns
 
 # Finding The Calendar Event Conflicts Challenge
-Using the following dataset check to see if any events have conflicting times and return them.
+Using the following dataset as your input code a function that returns events with conflicting times.
 
 ```
 // input
