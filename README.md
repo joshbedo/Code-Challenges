@@ -50,5 +50,5 @@ Create a function to check if the input is a Palindrome and return true or false
 
 const checkPalindrome = str => {
   return str === str.split('').reverse().join('');
-}
+};
 ```
