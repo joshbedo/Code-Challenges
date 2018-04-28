@@ -24,10 +24,14 @@
 //   }
 // }
 
-function stairs(n) {
-  var line = Array(n + 1).fill(' ');
+/**
+ * Function to build staircase
+ * @param  {int} n=5
+ */
+const stairs = n => {
+  let line = Array(n+1).fill(' ');
   line[n] = '\n';
-  for (var i = n - 1; i >= 0; i--) {
+  for (let i = n - 1; i >= 0; i--) {
     line[i] = '#';
     process.stdout.write(line.join(''));
   }
