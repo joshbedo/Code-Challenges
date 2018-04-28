@@ -1,4 +1,4 @@
-# Code-Challenges
+# Code Challenges
 A bunch of different code challenges for fun
 
 # The Staircase Code Challenge
