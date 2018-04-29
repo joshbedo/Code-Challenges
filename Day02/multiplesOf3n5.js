@@ -12,7 +12,7 @@ const add = (a,b) => {
 const findSum = n => {
   let arr = [];
 
-  for (var i = 0; i < n; i++) {
+  for (let i = 0; i < n; i++) {
     if (i % 3 == 0 || i % 5 == 0) {
       arr.push(i);
     }
